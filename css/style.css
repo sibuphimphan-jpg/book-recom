@@ -1,0 +1,241 @@
+.center-text h2 {
+   margin-top: 20px;
+   margin-bottom: 15px;
+   font-size: 32px;
+   font-weight: bold;
+   text-align: left;
+}
+
+.center-text p {
+   /* สไตล์เดิมที่ถูกลบล้างใน section อื่น */
+   text-align: left;
+   margin-bottom: 20px;
+   text-indent: 30px;
+   line-height: 1.8;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+h1 {
+    font-family: 'Athiti', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Athiti', sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Athiti', sans-serif;
+    font-weight: 700;
+    /* เพิ่มสีและเส้นขอบอ่อน ๆ ให้ H2 */
+    color: #5a2d12;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #e9d57c; 
+    display: inline-block; 
+    margin-top: 20px !important;
+}
+
+/* ---------------------------------
+   พื้นหลังไล่สี (Gradient Background)
+   --------------------------------- */
+.sb-font {
+    font-family: 'Prompt', sans-serif;
+    /* ไล่สีจากขาวอมเหลืองอ่อนไปขาวอมชมพูอ่อน (Healing Tone) */
+    background: linear-gradient(to bottom right, #fcfaf8, #f5eaea); 
+    background-attachment: fixed; /* ทำให้ Gradient ไม่เลื่อนตามเวลา Scroll */
+}
+
+.hero-section-bg {
+    /* ใช้สีเดิมที่เข้มขึ้นเพื่อความโดดเด่น */
+    background-color: #ECD4D4;
+}
+
+.center-text h4 {
+    text-align: left;
+    font-size: 1.2rem; /* ขยายขนาด H4 */
+    font-weight: bold;
+    color: #a0522d; /* เพิ่มสีน้ำตาลอ่อน */
+    margin-top: 0; 
+    margin-bottom: 10px;
+}
+
+.book-cover-shadow {
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.4); 
+}
+
+/* Custom style สำหรับกล่องสรุป */
+.summary-box H5 {
+    /* ทำให้ข้อความ H5 ดูโดดเด่น */
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.7;
+    margin-bottom: 0;
+    color: #1d030f;
+/* ปรับสไตล์ของข้อความที่อยู่ภายในกล่องสรุป */
+}
+
+@keyframes pulseGlow {
+    0% {
+        box-shadow: 0 10px 30px rgba(160, 82, 45, 0.15);
+    }
+    100% {
+        box-shadow: 0 10px 35px rgba(160, 82, 45, 0.3); /* เงาเข้มขึ้นเล็กน้อยเมื่อถึงจุดสูงสุด */
+    }
+}
+
+
+
+.summary-box p {
+    line-height: 1.6;
+    margin-bottom: 0; 
+}
+
+h5 {
+    font-family: 'Sriracha', sans-serif;
+}
+
+/* ---------------------------------
+   สไตล์สำหรับ Benefit Section (การจัดวางรูปภาพ) 
+   --------------------------------- */
+.benefit-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.benefit-icon {
+    max-width: 80%; 
+    height: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+}
+
+/* บังคับให้ข้อความในส่วนเนื้อหาหลักชิดซ้าย */
+.benefit-text-content .section-p {
+    text-align: left !important;
+    text-indent: 0px !important; 
+    line-height: 1.8;
+    margin-bottom: 20px;
+    padding-left: 0px !important; 
+    padding-right: 0px !important;
+}
+
+/* ---------------------------------
+   สไตล์สำหรับ Change Cards (เปลี่ยนอะไรในตัวเราได้บ้าง)
+   --------------------------------- */
+.change-cards-section {
+    margin-top: 30px;
+}
+
+.change-card {
+    background-color: #ffffff; /* พื้นหลังสีขาว */
+    border: 1px solid #f0e0e0; /* ขอบสีอ่อนมาก */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* ลูกเล่น Hover Effect */
+.change-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.change-card p {
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-indent: 0 !important; 
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* ---------------------------------
+   สไตล์สำหรับ Call to Action Section (CTA)
+   --------------------------------- */
+.cta-section-bg {
+    /* ใช้สีที่โดดเด่นแต่ยังคงความอบอุ่น */
+    background-color: #f7e8e8; 
+    border-top: 5px solid #ECD4D4;
+    border-bottom: 5px solid #ECD4D4;
+}
+
+.cta-title {
+    font-family: 'Athiti', sans-serif;
+    font-weight: 700;
+    color: #5a2d12;
+    font-size: 2.5rem;
+}
+
+.cta-subtitle {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    color: #a0522d;
+    font-size: 1.5rem;
+}
+
+.cta-btn {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    border-radius: 50px; /* ทำให้ปุ่มโค้งมนทันสมัย */
+    padding: 12px 30px;
+    transition: all 0.3s ease; /* เพิ่ม Transition เพื่อลูกเล่น */
+    box-shadow: 0 4px 10
+}
+
+   
+
+/* เปลี่ยนแต่ง Navbar  */
+.bg-body-tertiary {
+    background-color: #5a2d12 !important; /* สีน้ำตาลเข้ม/ช็อกโกแลต (จากสีตัวอักษรของ summary-box) */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* ทำให้ Navbar ดูหนาและโดดเด่น */
+}
+
+.navbar-brand img {
+    filter: invert(100%); 
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    color: #fcfaf8 !important; 
+    transition: color 0.3s, transform 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e9d57c !important; 
+    transform: translateY(-2px); 
+}
+
+
+.nav-shadow {
+    box-shadow: none; 
+}
+
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: brightness(0); 
+}
+
+.benefit-text-content .section-p {
+    text-align: left !important;
+    text-indent: 30px !important; 
+    line-height: 1.8;
+    margin-bottom: 20px;
+    padding-left: 0px !important; 
+    padding-right: 0px !important;
+    color: #3a1e0b; 
+}
+
+.benefit-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.benefit-icon {
+    /* ปรับขนาดสูงสุดของรูปภาพจาก 80% เป็น 100% เพื่อให้เต็มคอลัมน์ */
+    max-width: 100%; 
+    height: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+}
